@@ -45,7 +45,7 @@ FailSafeAuth/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-github-url>
+git clone https://github.com/mspanwar21/FailSafeAuth
 cd FailSafeAuth
 ```
 
@@ -145,7 +145,7 @@ AppServiceConsoleLogs
 4. Threshold: Count > 5 in 5-minute window
 5. Action: Email (Action Group)
 6. Severity: 2 or 3
-7. Name: `BruteForceLoginAlert`
+7. Name: `ADMIN`
 
 ---
 
@@ -169,7 +169,3 @@ You now have:
 - Alerts that detect brute-force login behavior
 
 ---
-
-## 📄 License
-
-MIT
